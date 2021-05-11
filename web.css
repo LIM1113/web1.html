@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.background{
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url(image/1.jpg);
+  background-repeat: no-repeat;
+}
+
+.container{
+  padding: 0 2rem;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  }
+
+a{
+  text-decoration: none;
+}
+
+.head a{
+  font-weight: bolder;
+  font-size: 2em;
+  color: white;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head .nav{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.head .nav li{
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  margin-left: 1rem;
+  padding: 4px 4px;
+}
+
+.head .nav li:hover{
+  border: 0px;
+  border-radius: 10%;
+  background-color: rgba(87, 87, 139, 0.12);
+  cursor: pointer;
+
+}
+
+main{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+.blur{
+  padding: 30px 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
+}
+
+.first{
+  margin: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.second{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 2em;
+}
+
+.thrid{
+  display: inline-block;
+  margin: 0;
+  padding: 6px 6px;
+  border-radius: 10px;
+  border: 1px solid rgba(10,10,10);
+  text-transform: uppercase;
+  color: black;
+}
+
+.thrid:hover{
+  background-color: rgba(87, 87, 139, 0.12);
+  cursor: pointer;
+}
